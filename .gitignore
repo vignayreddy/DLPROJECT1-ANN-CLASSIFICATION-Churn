@@ -23,7 +23,7 @@ saved_model/
 
 # --- Model files ---
 model.h5
-model.keras
+
 
 # --- Streamlit cache ---
 .streamlit/
