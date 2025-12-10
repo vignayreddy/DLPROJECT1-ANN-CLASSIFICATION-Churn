@@ -1,0 +1,44 @@
+# --- Virtual environment ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# --- TensorFlow & training artifacts ---
+logs/
+log/
+.checkpoints/
+tensorboard/
+*.tflite
+*.pb
+saved_model/
+
+# --- Model files ---
+model.h5
+model.keras
+
+# --- Streamlit cache ---
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# --- OS / Editor files ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Pip installer ---
+get-pip.py
+.get_pip.py
+
+# --- Misc ---
+*.log
